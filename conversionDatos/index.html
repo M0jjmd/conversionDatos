@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>unit converters</title>
+</head>
+<body>
+    <header>
+        <i id="icon1" class="fa-solid fa-arrow-right-arrow-left"></i>
+        <h3>unit converter</h3>
+    </header>
+
+    <main>
+        <section id="sect1">
+            <div id="div1">
+                <h1>convert</h1>
+                <div id="convert1">
+                    <div id="dropDown">
+                        <select id="conversionEntrada">
+                            <option value="millas">kilómetros a millas</option>
+                            <option value="kilómetros">millas a kilómetros</option>
+                            <option value="metros">pies a metros</option>
+                            <option value="pies">metros a pies</option>
+                            <option value="pulgadas">centímetros a pulgadas</option>
+                            <option value="centimetros">pulgadas a centímetros</option>
+                            /*<i id="icon1" class="fa-solid fa-arrow-right-arrow-left"></i>*/
+                        </select>
+                    </div>
+                    <div id="input">
+                        <input type="number" id="numEntrada">
+
+                        <p id="medida">millas</p> 
+                    </div>
+                </div>
+                <div id="conver2">
+                    <button onclick="guardarLocalStorage()"><i id="icon2" class="fa-regular fa-heart"></i></button>
+                    
+                    <p id="resultadoFin"></p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="sect2"> 
+            <div class="container">
+                <div id="saved">
+                    <h1>saved</h1>
+                </div>
+                <div id="mostrarMedidas">
+                    <ul id="listaMedidas"></ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="#">Terms of service</a></p>
+        <p><a href="#">Privacy policy</a></p>
+    </footer>
+</body>
+</html>

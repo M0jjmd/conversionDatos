@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body*/
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 5vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    font-style: normal;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    /*outline: solid black;*/
+}
+
+main {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*outline: solid red;*/
+}
+
+footer {
+    width: 80%;
+    height: 5vh;
+}
+
+/*icons*/
+#icon1 {
+    color: #2E0039;
+    padding: 10px;
+}
+
+#icon2 {
+    color: white;
+}
+/*body header*/
+h3{
+    color: #2E0039;
+}
+
+/*body main*/
+section {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1 {
+    width: 80%;
+    height: 15vh;
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+    top: 99px;
+    left: 529px;
+    gap: 0px;
+    opacity: 0px;
+    border: solid black;
+    background-color: #2E0039;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#convert1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#convert2 {
+    display: flex;
+
+}
+
+#dropDown {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#input {
+    display: flex;
+    flex-direction: row;
+}
+
+#sect1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#sect2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+#saved {
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    justify-content: flex-start;
+}
+
+#mostrarMedidas {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+/*body footer*/
+
+footer {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E0039;
+    
+}
+
+footer p {
+    display: inline;
+    margin: 0 10px;
+    color: green;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
